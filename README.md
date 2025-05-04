@@ -45,8 +45,7 @@ Make post method call to http://localhost:8080/user/signup
     "password": "test1234"
 }
 
-![image](https://user-images.githubusercontent.com/45309427/123003514-f6ecef00-d3bb-11eb-82ba-c922b0a0a366.png)
-
+ 
 then make the post to url 
 
 http://localhost:8080/login
@@ -56,13 +55,11 @@ http://localhost:8080/login
     "password": "test1234"
 }
 
-![image](https://user-images.githubusercontent.com/45309427/123003720-4af7d380-d3bc-11eb-8414-e6b0cee94005.png)
-
+ 
 
 copy the Authorization string and this JWT token will be active for 15 minutes only.
 After getting the token we can make request to the APIs , without a valid token , we will be getting the Access Denied 
 
 with the token we will be getting the results 
 
-![image](https://user-images.githubusercontent.com/45309427/123004152-eab56180-d3bc-11eb-9d75-e46e2d419b79.png)
-
+ 
